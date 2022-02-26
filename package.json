@@ -1,0 +1,23 @@
+{
+  "name": "file-sharer",
+  "version": "1.0.0",
+  "description": "This is a File Sharing WEb APp",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "adarsh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "env": "^0.0.2",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3",
+    "multer": "^1.4.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2"
+  }
+}
