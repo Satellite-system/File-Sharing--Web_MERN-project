@@ -15,6 +15,7 @@
     "ejs": "^3.1.6",
     "env": "^0.0.2",
     "express": "^4.17.3",
+    "fs": "^0.0.1-security",
     "mongoose": "^6.2.3",
     "multer": "^1.4.4",
     "nodemailer": "^6.7.2",
