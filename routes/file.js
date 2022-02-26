@@ -21,6 +21,7 @@ let upload = multer({
   limit: { fileSize: 1000000 * 100 },
 }).single("myfile"); //since we want single file to upload
 
+
 router.post("/", (req, res) => {
   // store File
   upload(req, res, async (err) => {

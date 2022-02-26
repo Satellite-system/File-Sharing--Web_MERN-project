@@ -21,6 +21,10 @@ app.use(cors(corsOptions));
 app.set('views', path.join(__dirname, '/views'));
 app.set('view engine', 'ejs');
 
+app.get('/',(req,res)=>{
+    res.render('homePage');
+})
+
 //Routes
 app.use('/api/files',require('./routes/file'));
 app.use('/files',require('./routes/showFile'));
@@ -28,4 +32,3 @@ app.use('/files',require('./routes/showFile'));
 app.listen(PORT, ()=>{
     console.log(`Listening to PORT : ${PORT}`);
 })
-
